@@ -32,14 +32,13 @@ const Sidebar = ({ docs }) => {
                       <li key={subRoot.id}>
                         <Link
                           className="flex justify-between gap-2 py-1 pl-7 pr-3 text-sm text-zinc-900 transition dark:text-white"
-                          href={`docs/${rootNode.id}/${subRoot.id}`}
+                          href={`/docs/${rootNode.id}/${subRoot.id}`}
                         >
                           <span className="truncate">{subRoot.title}</span>
                         </Link>
                       </li>
                     ))}
                   </ul>
-                  
                 )}
               </li>
             ))}
