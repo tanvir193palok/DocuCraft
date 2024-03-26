@@ -3,14 +3,14 @@ import Image from "next/image";
 
 const Logo = () => {
   return (
-    <div class="hidden lg:flex">
+    <div className="lg:flex">
       <Link href="/">
         <Image
+          className="h-6 w-auto"
           src="/logo.svg"
+          alt="Logo"
           width={100}
           height={24}
-          alt="Protocol"
-          class="h-6 w-auto"
           priority
         />
       </Link>
